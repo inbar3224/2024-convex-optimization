@@ -14,11 +14,11 @@ Student ID: 316327246
 
 - I multiplied the original points and received new red points with new vectors attached to them from the camera (green ones).
 
-![/images/graph_for_first_step](/images/graph_for_first_step.png)
+![/images/graph_for_first_step1](/images/graph_for_first_step1.png)
 
 - I calculated the inverse transformation matrix and multiplied the new points with it in order to get the original points back.
 
-![/images/results_for_first_step](/images/results_for_first_step.png)
+![/images/results_for_first_step1](/images/results_for_first_step1.png)
 
 - Here the transformation matrix was fairly simple and the sampling size (only 5 points) was fairly small - so the cost we might have received by those changes is 0.
 - With a larger sample or alternatively an "uglier" transformation matrix we would receive some cost and not manage to return to the same original points.
