@@ -8,6 +8,10 @@ Student ID: 316327246
 - I positioned the origin (the camera) on the far side of the screen.
 - I randomly sampled 5 red points in a 3D coordination system and connected the blue vectors from the camera to those points.
 - I then went on to manually create a transformation matrix that consists of only rotation and translation (no scaling required).
+- The matrix I created rotate the points by 20 degrees and move them by 2 on the x axes and by 3 on the y axes.
+
+![/images/transformation_matrix](/images/transformation_matrix.png)
+
 - I multiplied the original points and received new red points with new vectors attached to them from the camera (green ones).
 
 ![/images/graph_for_first_step](/images/graph_for_first_step.png)
